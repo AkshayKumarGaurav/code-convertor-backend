@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.MyApi,
 });
 
 //code conversion
